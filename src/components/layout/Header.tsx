@@ -75,12 +75,12 @@ const Header: React.FC = () => {
             </div>
 
             <a
-              href="tel:+380990000000"
+              href="tel:+380977347767"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-orange-500 hover:bg-orange-600 border border-orange-400/50 transition-all hover:border-orange-300 group cursor-pointer shadow-lg shadow-orange-500/20"
             >
               <Phone className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
               <span className="text-sm font-medium text-white">
-                099 000 00 00
+                +380 97 734 77 67
               </span>
             </a>
           </div>
@@ -124,11 +124,11 @@ const Header: React.FC = () => {
 
               <div className="px-6 pt-2">
                 <a
-                  href="tel:+380990000000"
+                  href="tel:+380977347767"
                   className="w-full flex justify-center items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 hover:bg-orange-600 transition-colors text-white font-bold"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>099 000 00 00</span>
+                  <span>097 734 77 67</span>
                 </a>
               </div>
             </div>

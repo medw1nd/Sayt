@@ -52,54 +52,60 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 1,
     title: "Світлові Лінії",
     category: "Сучасне освітлення",
-    imageUrl: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "/portfolio-1.jpg"
   },
   {
     id: 2,
-    title: "Глянцева Фактура",
-    category: "Візуальне збільшення",
-    imageUrl: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=800&auto=format&fit=crop"
+    title: "Фотодрук на Стелі",
+    category: "Унікальний дизайн",
+    imageUrl: "/portfolio-2.jpg"
   },
   {
     id: 3,
-    title: "Матова Класика",
-    category: "Ідеальна площина",
-    imageUrl: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=800&auto=format&fit=crop"
+    title: "Арт-Текстура",
+    category: "Декоративні рішення",
+    imageUrl: "/portfolio-3.jpg"
   },
   {
     id: 4,
-    title: "Ванна Кімната",
-    category: "Вологостійкість",
-    imageUrl: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop"
+    title: "Багаторівнева Конструкція",
+    category: "Ексклюзив",
+    imageUrl: "/portfolio-4.jpg"
   },
   {
     id: 5,
-    title: "Тіньовий Профіль",
-    category: "Ефект левітації",
-    imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop"
+    title: "Комбінована Стеля",
+    category: "Зонування простору",
+    imageUrl: "/portfolio-5.jpg"
   },
   {
     id: 6,
-    title: "Трекове Освітлення",
-    category: "Зонування світлом",
-    imageUrl: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop"
+    title: "Натяжна Стеля 6",
+    category: "Інтер'єр",
+    imageUrl: "/portfolio-6.jpg"
   },
   {
     id: 7,
-    title: "Дворівнева Стеля",
-    category: "Дизайн",
-    imageUrl: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop"
+    title: "Натяжна Стеля 7",
+    category: "Інтер'єр",
+    imageUrl: "/portfolio-7.jpg"
   },
   {
     id: 8,
-    title: "Паряща Стеля",
-    category: "Підсвітка",
-    imageUrl: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop"
+    title: "Натяжна Стеля 8",
+    category: "Інтер'єр",
+    imageUrl: "/portfolio-8.jpg"
   },
   {
     id: 9,
-    title: "Сатинове Полотно",
-    category: "Текстура",
-    imageUrl: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop"
+    title: "Натяжна Стеля 9",
+    category: "Інтер'єр",
+    imageUrl: "/portfolio-9.jpg"
+  },
+  {
+    id: 10,
+    title: "Натяжна Стеля 10",
+    category: "Інтер'єр",
+    imageUrl: "/portfolio-10.jpg"
   }
 ];
