@@ -1,5 +1,5 @@
 import { ShieldCheck, Zap, Award, Users, BadgeCheck, Leaf, Sparkles, HeartHandshake } from 'lucide-react';
-import { ServiceFeature, PortfolioItem } from './types';
+import type { ServiceFeature, PortfolioItem } from '../types';
 
 export const FEATURES: ServiceFeature[] = [
   {
@@ -48,6 +48,48 @@ export const MATERIAL_BENEFITS = [
 ];
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  {
+    id: 11,
+    title: 'Світловий контур у ванній',
+    category: 'Контурне LED-освітлення',
+    imageUrl: '/portfolio/led-perimeter.jpg',
+    presentation: { brightness: 1.16, position: 'center' }
+  },
+  {
+    id: 12,
+    title: 'Геометричні треки біля панорамних вікон',
+    category: 'Трекове освітлення',
+    imageUrl: '/portfolio/geometric-tracks.jpg',
+    presentation: { brightness: 1.25, position: 'center' }
+  },
+  {
+    id: 13,
+    title: 'Стеля з примиканням до дерев’яної колони',
+    category: 'Натяжна стеля',
+    imageUrl: '/portfolio/ceiling-around-column.jpg',
+    presentation: { brightness: 1.24, position: 'center' }
+  },
+  {
+    id: 14,
+    title: 'Лінійні треки та центральний світильник',
+    category: 'Комбіноване освітлення',
+    imageUrl: '/portfolio/ceiling-with-pendant.jpg',
+    presentation: { brightness: 1.29, position: 'center' }
+  },
+  {
+    id: 15,
+    title: 'Подвійний трек крупним планом',
+    category: 'Трекове освітлення',
+    imageUrl: '/portfolio/double-light-track.jpg',
+    presentation: { brightness: 1.13, position: 'center 65%' }
+  },
+  {
+    id: 16,
+    title: 'Прихований карниз біля вікна',
+    category: 'Прихований карниз',
+    imageUrl: '/portfolio/concealed-curtain-track.jpg',
+    presentation: { brightness: 1.28, position: 'center 39%' }
+  },
   {
     id: 1,
     title: "Світлові Лінії",

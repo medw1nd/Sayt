@@ -19,13 +19,27 @@ const Portfolio: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {PORTFOLIO_ITEMS.map((item) => (
-            <div key={item.id} className="group relative overflow-hidden rounded-xl shadow-lg bg-white h-72">
-              <img
-                src={item.imageUrl}
-                alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-            </div>
+            <figure key={item.id} className="group overflow-hidden rounded-xl bg-white shadow-lg">
+              <div className="aspect-[4/3] overflow-hidden bg-brand-dark">
+                <img
+                  src={item.imageUrl}
+                  alt={item.title}
+                  loading="lazy"
+                  decoding="async"
+                  style={item.presentation && {
+                    objectPosition: item.presentation.position,
+                    filter: `brightness(${item.presentation.brightness}) saturate(0.94)`
+                  }}
+                  className="h-full w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
+                />
+              </div>
+              {item.presentation && (
+                <figcaption className="px-5 py-4">
+                  <p className="text-sm text-gray-600">{item.category}</p>
+                  <h3 className="mt-1 font-bold text-brand-dark">{item.title}</h3>
+                </figcaption>
+              )}
+            </figure>
           ))}
         </div>
       </div>
